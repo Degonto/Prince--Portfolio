@@ -1,0 +1,288 @@
+*{
+	margin:0;padding:0; 
+} 
+body{
+	background-color:#EEE8AE;
+ }
+ 
+ }
+ blockquote{
+	background-color:#ddd;
+	margin-left:30px;
+	padding:10px;
+	padding-left:20px;
+	border-left:2px solid orange;
+ }
+ .mainwrap{
+	width:100%;
+	
+ }
+ .wrap{
+	width:960px;
+	display:block;
+	margin:0 auto;
+ }
+ .header_bg{
+	background-color:#FAB72A;
+	border-bottom:5px solid #6B710E;
+ }
+ #header{
+	background-color:#FAB72A;
+	padding:15px;
+	border-right:1px solid #6B710E;
+	border-left:1px solid #6B710E;
+}
+#header h2{
+	color:#FFFFF1;
+	
+}
+#header p{
+	color:#265032;;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+.nav_bg{
+	background-color:#fff;
+	border-bottom:5px solid #6B710E;
+}
+#nav{
+	background-color:#fff;
+	height:39px;
+	border-right:1px solid #6B710E;
+	border-left:1px solid #6B710E;
+}
+#nav ul{
+	background-color#fff;
+	list-style-type:none;
+	z-index:99;
+}
+#nav ul li{
+	float:left;
+	border-right:1px solid #6B710E;
+}
+#nav ul li:last-child{
+border:none; 
+	
+}
+#nav ul li a{ 
+	text-decoration:none;	
+	color:#464A08;
+	display:block;
+	padding:10px 20px;
+	font-family:arial; 
+	position:relative;
+}
+#nav ul li a:hover{
+	Color:#fff;
+	background-color:#6B710E;
+	transition:0.2s all ease;
+     
+} 
+#nav ul li{
+	position:relative;
+}
+#nav ul li ul {
+	position:absolute;left:-99999px;
+	background-color:#fff;
+}
+#nav ul li:hover ul {
+	left:0;
+}
+#nav ul li ul li:first-child{
+border-top:5px solid #6B710E;
+
+}
+
+#nav ul li ul li{
+float:left;
+border-right:none;
+border-bottom: 1px solid #6B710E;
+width:200px;
+position:relative;
+}
+#nav ul li ul li ul{
+	position:absolute;
+	top:-99999px;
+}
+#nav ul li ul li:hover ul{
+	top:-1px;
+	left:200px;
+}
+#nav ul li ul li ul li{
+	border-left:1px solid #6B710E;
+}
+#nav ul li ul li ul li:last-child{
+	border-left:1px solid #6B710E;
+}
+#nav ul li ul li ul li:first-child{
+	border-top:none;
+}
+#slider_wrapper {
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+
+}
+.slider_bg{
+	background-color:#222222;
+}
+.content_bg{
+	background-color:#fff;
+
+}
+blockquote{
+	background-color:#ddd;
+	border-left:10px solid orange;
+	padding:10px 5px 7px 9px;
+	line-height:30px;
+	margin-left:15px;
+	
+}
+#content_wrapper{
+	background-color:#fff;
+	padding:10px;
+	overflow:hidden;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+#content{
+	width:620px;
+	margin-right:20px;
+	float:left;
+}
+#content h2{
+	color:#6B710E;
+	font-family:arial;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-size:23px;
+}
+#content p{
+	margin:15px 0px;
+	font-size:15px;
+	
+}
+#content h3{
+	color:#6B710E;
+	font-family:arial;
+	margin-bottom:5px;
+	margin-top:10px;
+	font-size:20px;
+}
+#content img{
+	width:450px;
+	
+}
+#content figure{
+	margin:0 auto;
+	display:block; 
+	width:450px;
+	padding:10px;
+	background-color:#ddd;
+	
+}
+#content figcaption{
+	text-align:center;
+	color:green;
+	font-family:arial;
+	font-weight;bold;
+}
+#sidebar{
+	width:295px;
+	float:left;
+}
+#sidebar ul{
+	list-style-type:none;
+
+}
+#sidebar ul li{
+	border-bottom:1px solid #eaa1a1;
+	margin-bottom:3px;
+}
+#sidebar ul li:last-child{
+	border-bottom:none;
+}
+
+#sidebar ul li a{
+text-decoration:none;
+color:#6B710E;
+padding:3px;
+display:block; 
+
+}
+#sidebar h2{
+	color:#6B710E;
+}
+#main_sidebar{
+	 border-bottom:1px solid #6B710E;
+	 margin:25px;
+	 overflow:hidden;
+	 padding-bottom:5px;
+}
+#main_sidebar h2{
+	margin-bottom:10px;
+}
+#main_sidebar ul li{
+	padding-left:10px;
+}
+.footer_bg{
+	background-color:#63554B;
+
+}
+
+#footer{
+	background-color:#63554B;
+	padding:10px;
+	text-align:center;
+}
+#footer p{
+	color;#fff;  
+}
+#main_article_single{
+	margin-bottom:15px;
+	border-bottom:1px solid #6B710E;
+		overflow:hidden;
+}
+#imgp_wrap img{
+	width:75px;
+	height:75px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	float:left;
+	margin-right:10px;
+	padding:3px;
+
+}
+#imgp_wrap p{
+float:left;
+width:500px;
+margin-top:12px;
+
+}
+#imgp_wrap{
+	margin-top:10px;
+}
+
+
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

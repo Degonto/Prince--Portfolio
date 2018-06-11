@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Creating a Website</title>
+		
+		
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="font/font.css" />
+		<link rel="icon" href="img/favicon.png" />
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		
+	</head>
+	<body>
+				<div class="mainwrap header_bg" >
+					<div class="wrap">
+			<header>
+				<div id="header">
+					<h2>Inside Page</h2>
+					<p>Subtitled goes here</p>
+				</div>
+			</header>
+					</div>
+				</div> 
+			<div class="mainwrap nav_bg">
+					<div class="wrap">
+			 <nav> 
+				 <div id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#">Inside</a></li>
+						<li><a href="#">Menu Item</a></li>
+						<li><a href="#">Menu Item &raquo;</a>
+						
+							<ul>
+								<li><a href="#">Dropdown item</a></li>
+								<li><a href="#">Dropdown item</a></li>
+								<li><a href="#">Dropdown item</a></li>
+								<li><a href="#">Dropdown item &raquo</a>
+									<ul>
+										<li><a href="#">sub dropdown</a></li>
+										<li><a href="#">sub dropdown</a></li>
+										<li><a href="#">sub dropdown</a></li>
+										<li><a href="#">sub dropdown</a></li>
+										<li><a href="#">sub dropdown</a></li>
+										<li><a href="#">sub dropdown</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Dropdown item</a></li>
+							</ul>
+						
+						</li>
+						<li><a href="#">Menu Item</a></li>
+					</ul>
+				 </div>
+			</nav>
+					</div>
+				</div> 
+		
+			<div class="mainwrap content_bg">
+				<div class="wrap">
+					<div id="content_wrapper">
+				<div id="content">
+					<article>
+						<h2>loram ipsam</h2>
+						<p>loram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsam</p>
+						
+						<figure>
+							<img src="img/1.jpg" alt="" />
+							<figcaption>
+								A Beautiful Flower
+							</figcaption>
+						</figure>
+						<p>loram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsam</p>
+						
+						<figure>
+							<img src="img/flower.jpg" alt="" />
+							<figcaption>
+								Lovely Flowers
+							</figcaption>
+						</figure>
+						<p>loram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsam</p>
+						
+						<figure>
+							<img src="img/nature1.jpg" alt="" />
+							<figcaption>
+								Awesome Nature
+							</figcaption>
+						</figure>
+						<p>loram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsam</p>
+						<blockquote>
+						<p>loram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsam</p>
+						</blockquote>
+						
+						<p>loram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsam</p>
+						<h3>This is heading 3</h3>
+						<p>loram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsamloram ipsam</p>
+					</article>
+				</div>
+						<div id="sidebar">
+							<aside id="main_sidebar">
+							<ul>
+								<h2>This is sidebar</h2>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+							</ul>
+							</aside>
+							<aside id="main_sidebar">
+							<ul>
+								<h2>This is sidebar</h2>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+							</ul>
+							</aside>
+							<aside id="main_sidebar">
+							<ul>
+								<h2>This is sidebar</h2>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+								<li><a href="#">List item</a></li>
+							</ul>
+							</aside>
+						</div>
+					</div>						
+							</div>
+						</div> 
+			<div class="mainwrap footer_bg">
+					<div class="wrap">
+						<footer>
+							<div id="footer">
+								<p>&copy All Right Reserved By- Prince Mahmud</p>
+							</div>
+						
+		
+						</footer>
+					</div>
+				</div> 
+		<script type="text/javascript">
+		$(document).ready(function() {
+			var s = $("#nav");
+			var pos = s.position();					   
+			$(window).scroll(function() {
+				var windowpos = $(window).scrollTop();
+				if (windowpos >= pos.top) {
+					s.addClass("stick");
+				} else {
+					s.removeClass("stick");	
+				}
+			});
+		});
+	</script> 
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
